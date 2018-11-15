@@ -6,8 +6,8 @@
 header {
 	width: 100%;
 	background: #000;
-	height: 120px;
-	position:top;
+	height: 100px;
+	padding: fixed;
 
 }           
 
@@ -31,7 +31,7 @@ nav{
 /*background: olive;*/
 	float:left;
 	text-align: right;
-	padding-top:24px;
+	padding-top:30px;
 	box-sizing: border-box;
 }
 .logo p a{
@@ -45,7 +45,7 @@ nav ul li{
 	display: inline;
 }
 nav ul li a{
-	color:#fff;
+	color:#0080FF;
 	font-size: 13px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -59,22 +59,58 @@ nav ul li a:hover{
 }
 
 .bio{
-	background-color:#000;
-	padding: 50px;
-	color:red;
+	background:url(images/pexels-photo-160107.jpg)center no-repeat;
+	background-size:cover;
+	position: relative;
+	padding: 70px;
+	color:#0080FF;
 	text-align: center;
 	font-weight: bold;
 	text-transform: uppercase;
-
-
-}  
- .Servicios{
- 	background: white;
- 	color:red;
- }
-.footer{
-	background: black;
-	color: white;
-	padding-top: 400px;
-	text-align: center;
 }
+
+.bio:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 0;
+}
+
+.bio h2 {
+  color: ;
+  position: relative;
+}
+
+img{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+ 
+ .Servicios{
+background:#393e46;
+ color: #0080FF;
+ text-align: center;
+ padding: 70px;
+ }
+
+ footer{
+	background:#7e97a6;
+	color:#05004e; 
+	padding: 100px;
+
+{
+
+
+
+
+
+
+
+  
+
