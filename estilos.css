@@ -25,6 +25,11 @@ header {
     padding-top:  20px;
     box-sizing: border-box;
 }
+
+.portafolio {
+	background: green;
+	padding: 25px; 
+}
 nav{
 	width: 70%;
 	height: 70px;
@@ -81,7 +86,7 @@ nav ul li a:hover{
 }
 
 #bio h2 {
-  color: ;
+  color:aqua;
   position: relative;
 }
 
@@ -93,18 +98,22 @@ img{
 }
  
  #Servicios{
-background:#393e46;
- color: #0080FF;
- text-align: center;
- padding: 70px;
+	background:#393e46;
+	color: #0080FF;
+	text-align: center;
+	padding: 70px;
  }
 
  footer{
 	background:#7e97a6;
 	color:#05004e; 
 	padding: 100px;
+ }
 
-{
+ .correo , .redes {
+	 display: inline-block;
+	 margin-right: 50px;
+ }
 
 
 
