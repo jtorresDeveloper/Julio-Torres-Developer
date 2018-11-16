@@ -8,6 +8,7 @@ header {
 	background: #000;
 	height: 100px;
 	padding: fixed;
+	border-bottom: 1px solid rgba(250,250,250)
 
 }           
 
@@ -102,19 +103,27 @@ img{
 	color: #0080FF;
 	text-align: center;
 	padding: 70px;
+	text-transform: uppercase;
  }
 
- footer{
+ #Contacto{
 	background:#7e97a6;
 	color:#05004e; 
 	padding: 100px;
+	text-align: center;
  }
 
  .correo , .redes {
 	 display: inline-block;
 	 margin-right: 50px;
+
  }
 
+#portfolio{
+	background: black;
+	color:red;
+	padding: 50px;
+}
 
 
 
